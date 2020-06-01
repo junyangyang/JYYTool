@@ -1,5 +1,5 @@
 PODS:
-  - JYYTool (0.1.0)
+  - JYYTool (0.0.1)
 
 DEPENDENCIES:
   - JYYTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JYYTool: 3c4a3ab6ce7080e7a5bb29ed47bf28b336d5291c
+  JYYTool: fc7037573b4af189fc2dccc0920f65edc8160480
 
 PODFILE CHECKSUM: 14c2dd55803f50cfa666a2c3272fa8ce5821d052
 

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import JYYTool
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
