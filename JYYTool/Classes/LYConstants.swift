@@ -8,47 +8,48 @@
 
 import UIKit
 
-struct LYConstants {
-    static let userdefaults = UserDefaults.standard
-}
 
-struct LYFrame {
-    static let mainSize = UIScreen.main.bounds
-    static let width = mainSize.width
-    static let height = mainSize.height
+public struct JYY{
+    static public let userdefaults = UserDefaults.standard
     
-    static let WIDTHSCALE6 = width/375.0
-    static let HEIGHTSCALE6 = width/667.0
+    static public let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString")
+    ///随机色
+    static public let randomColor = RGB(CGFloat(arc4random()%255),  CGFloat(arc4random()%255),  CGFloat(arc4random()%255))
     
-    static let navHeight : CGFloat = 44.0
-    static let statusHeight: CGFloat = ((LYDevice.iPhoneX_XS || LYDevice.iPhoneXSM) ? 44.0:20.0)
-    static let tabbarHeight: CGFloat = ((LYDevice.iPhoneX_XS || LYDevice.iPhoneXSM) ? 83.0:49.0)
-
-    static let safeArea_b: CGFloat = ((LYDevice.iPhoneX_XS || LYDevice.iPhoneXSM) ? 34.0:0.0)
-
-    static let viewHeight = (height - navHeight - statusHeight)
-}
-
-struct LYDevice{
-    static let version = UIDevice.current.systemVersion
     
-    static let screenHeight = LYFrame.height
-
-    static let iPhone4 = (screenHeight  < 568 ? true : false)
+    /// 默认图片
+    static public let imageDefault = UIImage(named: "image_default")
     
+    
+    
+    
+    
+    static public let mainSize = UIScreen.main.bounds
+    static public let width = mainSize.width
+    static public let height = mainSize.height
+    static public let WIDTHSCALE6 = width/375.0
+    static public let HEIGHTSCALE6 = width/667.0
+    static public let navHeight : CGFloat = 44.0
+    static public let statusHeight: CGFloat = ((iPhoneX_XS || iPhoneXSM) ? 44.0:20.0)
+    static public let tabbarHeight: CGFloat = ((iPhoneX_XS || iPhoneXSM) ? 83.0:49.0)
+    static public let safeArea_b: CGFloat = ((iPhoneX_XS || iPhoneXSM) ? 34.0:0.0)
+    static public let viewHeight = (height - navHeight - statusHeight)
+    
+    
+    
+    static public let deviceVersion = UIDevice.current.systemVersion
+    
+
+    static public let iPhone4 = (height  < 568 ? true : false)
     /// iPhone 5
-    static let iPhone5 = screenHeight  == 568 ? true : false
-    
+    static public let iPhone5 = (height  == 568 ? true : false)
     /// iPhone 6
-    static let iPhone6 = screenHeight  == 667 ? true : false
-    
+    static public let iPhone6 = (height  == 667 ? true : false)
     /// iphone 6P
-    static let iPhone6P = screenHeight == 736 ? true : false
-    
+    static public let iPhone6P = (height == 736 ? true : false)
     /// iphone X
-    static let iPhoneX_XS = screenHeight == 812 ? true : false
-    
-    
-    static let iPhoneXSM = screenHeight == 896 ? true : false
-
+    static public let iPhoneX_XS = (height == 812 ? true : false)
+    static public let iPhoneXSM = (height == 896 ? true : false)
 }
+
+
