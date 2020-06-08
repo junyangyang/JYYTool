@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		196D4005F51EABE90BE690D78762B2FD /* Pods-JYYTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 660C0BD0A6BA2E0D23635BAC1E06F616 /* Pods-JYYTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CB833ACADCC10EC2D44313B3F4372C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		225046C4CCD4EE19162D145F99BC9B5B /* JYYTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F35FA0294CE643B98A936981B44067A /* JYYTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25C4883826091121076E40B25B87625E /* LYConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C8C88088A1A8FFE7E0BE74E65B7A4 /* LYConstants.swift */; };
+		225046C4CCD4EE19162D145F99BC9B5B /* JYYTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E48CF18A7EF73909A6A73B2596025E /* JYYTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		341255D91B03DED49950C51123CEAE74 /* Pods-JYYTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5505FECA24C28D593F4EDDAC8D898457 /* Pods-JYYTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		405AFA181911F8301CB0DE2AA07D7504 /* LYConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1419A0AFF81BEE42F7BC0C40749FA5F3 /* LYConstants.swift */; };
 		491E55BDE1468E555EE06B87C91B15DA /* Pods-JYYTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6084E503E191AA090106A9B55E26B463 /* Pods-JYYTool_Example-dummy.m */; };
 		4CC3B5453386C0E5A67D4A9580E4507B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		515C167E2484E90900D413FC /* LYMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C167D2484E90900D413FC /* LYMethod.swift */; };
 		5EABDFE9D8FCAABCCD9178E26BD1B030 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A668D590FACA1BF6FA96E16FDC1DE507 /* JYYTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F725A17AD9B8EC63D65AD7869AC386 /* JYYTool-dummy.m */; };
+		71F378130B6FC945D9C79036C249389E /* JYYTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4870969D020975E8E043C20082BE9630 /* JYYTool-dummy.m */; };
 		AA1D69BD1DE3BA5BB020B29652523794 /* Pods-JYYTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CBF5FD7815C05E1AC32BC89CACF04B /* Pods-JYYTool_Tests-dummy.m */; };
+		D8C00CCDCCA63B035204FCE70CE8B9B9 /* LYMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55052182995D6467DD84C147F4B842EE /* LYMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,35 +42,35 @@
 		077D35BD701A1FC23994B91B472A00F5 /* Pods-JYYTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYYTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		07A09F76824FAE43594CAC7FAD32ADCC /* Pods-JYYTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYYTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0C6A03F198F1E01CF9470880B4A90BB6 /* Pods-JYYTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYYTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		11F6F38E13D12181CD58994F64DB119F /* JYYTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYYTool-Info.plist"; sourceTree = "<group>"; };
 		12AED8FB9C6607521B3AF9143187306E /* Pods-JYYTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYYTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		13000BBE738225EED3D5642B3CA1C05E /* Pods-JYYTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYYTool_Example.modulemap"; sourceTree = "<group>"; };
-		185C8C88088A1A8FFE7E0BE74E65B7A4 /* LYConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYConstants.swift; path = JYYTool/Classes/LYConstants.swift; sourceTree = "<group>"; };
-		1C7913EE5FB84D038CE936350C5FF3BA /* Pods_JYYTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYYTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1419A0AFF81BEE42F7BC0C40749FA5F3 /* LYConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYConstants.swift; path = JYYTool/Classes/LYConstants.swift; sourceTree = "<group>"; };
+		1C7913EE5FB84D038CE936350C5FF3BA /* Pods_JYYTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYYTool_Example.framework; path = "Pods-JYYTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		342127572606B231D4FBE27E5A20B4B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		483CDCC7ABBC2E182EEE608F129FB024 /* JYYTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYYTool.modulemap; sourceTree = "<group>"; };
+		4870969D020975E8E043C20082BE9630 /* JYYTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYYTool-dummy.m"; sourceTree = "<group>"; };
 		4C3092689D806F9CA7D0886F43A042EC /* Pods-JYYTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYYTool_Example-Info.plist"; sourceTree = "<group>"; };
 		4EB35A9885CD2EAC3D0C0888D0F74CE2 /* Pods-JYYTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYYTool_Tests-Info.plist"; sourceTree = "<group>"; };
-		515C167D2484E90900D413FC /* LYMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LYMethod.swift; path = JYYTool/Classes/LYMethod.swift; sourceTree = "<group>"; };
-		52A6042877DC276F317DC50A92846D12 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54E48CF18A7EF73909A6A73B2596025E /* JYYTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYYTool-umbrella.h"; sourceTree = "<group>"; };
+		55052182995D6467DD84C147F4B842EE /* LYMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LYMethod.swift; path = JYYTool/Classes/LYMethod.swift; sourceTree = "<group>"; };
 		5505FECA24C28D593F4EDDAC8D898457 /* Pods-JYYTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYYTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		6084E503E191AA090106A9B55E26B463 /* Pods-JYYTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYYTool_Example-dummy.m"; sourceTree = "<group>"; };
 		660C0BD0A6BA2E0D23635BAC1E06F616 /* Pods-JYYTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYYTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6C86DA64D329FFF26AF6BF209EA4CE51 /* JYYTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JYYTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C86DA64D329FFF26AF6BF209EA4CE51 /* JYYTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYYTool.framework; path = JYYTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB00545FDDED18B2819A06A7FA0F1FC /* JYYTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYYTool-Info.plist"; sourceTree = "<group>"; };
 		769F69468A011128B01CF86FF486A855 /* Pods-JYYTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYYTool_Tests.modulemap"; sourceTree = "<group>"; };
-		7B97FC5966AA653C2AFB111239C97BAA /* Pods_JYYTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYYTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B97FC5966AA653C2AFB111239C97BAA /* Pods_JYYTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYYTool_Tests.framework; path = "Pods-JYYTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BF8B05DBCBDF121D0E698D1EFEAFE6 /* JYYTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JYYTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8BFF096DA7C5B316C1036EBCEB108B4A /* Pods-JYYTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYYTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9256D77A84BC28F9B17778A6B35624CD /* Pods-JYYTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYYTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		95F725A17AD9B8EC63D65AD7869AC386 /* JYYTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYYTool-dummy.m"; sourceTree = "<group>"; };
 		9B2CB9AFEE00EAA535163448EF21606A /* Pods-JYYTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYYTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F35FA0294CE643B98A936981B44067A /* JYYTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYYTool-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF816F62B549FF72362BD02B1BB3040 /* Pods-JYYTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYYTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABE7F4252B7E711B9708A795153F5E4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D0CBF5FD7815C05E1AC32BC89CACF04B /* Pods-JYYTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYYTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		D2E5954F55480DFCA7FF7D5FBEC6ACFA /* JYYTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYYTool-prefix.pch"; sourceTree = "<group>"; };
-		D5D4D42702BBDD4A10FD7E139C845EDB /* JYYTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYYTool.modulemap; sourceTree = "<group>"; };
-		D61047985C23EAFD51589B71AAD2B422 /* JYYTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYYTool.xcconfig; sourceTree = "<group>"; };
-		E1AA3EBF8DAA5045DF391393B2956042 /* JYYTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JYYTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E28558B6479A81CDC4F2BC0E01E97F6E /* JYYTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYYTool-prefix.pch"; sourceTree = "<group>"; };
+		F73C8AF3C9496BAB219ABF44546F03DD /* JYYTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYYTool.xcconfig; sourceTree = "<group>"; };
+		FEAC926B9D1E882F060AA942C0926DF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,30 +118,14 @@
 			path = "Target Support Files/Pods-JYYTool_Example";
 			sourceTree = "<group>";
 		};
-		408DF2031DEF689CFF017DA31FDC0034 /* JYYTool */ = {
+		0F85E90379572298F2BBC32F631FBA05 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				515C167D2484E90900D413FC /* LYMethod.swift */,
-				185C8C88088A1A8FFE7E0BE74E65B7A4 /* LYConstants.swift */,
-				5EB940E932E9C2C13CCDD25F03BA980D /* Pod */,
-				4EF665C494BC44B6205025BD74CE095E /* Support Files */,
+				89BF8B05DBCBDF121D0E698D1EFEAFE6 /* JYYTool.podspec */,
+				ABE7F4252B7E711B9708A795153F5E4A /* LICENSE */,
+				FEAC926B9D1E882F060AA942C0926DF1 /* README.md */,
 			);
-			name = JYYTool;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4EF665C494BC44B6205025BD74CE095E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D5D4D42702BBDD4A10FD7E139C845EDB /* JYYTool.modulemap */,
-				D61047985C23EAFD51589B71AAD2B422 /* JYYTool.xcconfig */,
-				95F725A17AD9B8EC63D65AD7869AC386 /* JYYTool-dummy.m */,
-				11F6F38E13D12181CD58994F64DB119F /* JYYTool-Info.plist */,
-				D2E5954F55480DFCA7FF7D5FBEC6ACFA /* JYYTool-prefix.pch */,
-				9F35FA0294CE643B98A936981B44067A /* JYYTool-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JYYTool";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5B73D406BF9E6EEFF5291E6AB427A348 /* Pods-JYYTool_Tests */ = {
@@ -160,14 +144,18 @@
 			path = "Target Support Files/Pods-JYYTool_Tests";
 			sourceTree = "<group>";
 		};
-		5EB940E932E9C2C13CCDD25F03BA980D /* Pod */ = {
+		8E4620E51020CBABD446B5E5DDA65423 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E1AA3EBF8DAA5045DF391393B2956042 /* JYYTool.podspec */,
-				342127572606B231D4FBE27E5A20B4B7 /* LICENSE */,
-				52A6042877DC276F317DC50A92846D12 /* README.md */,
+				483CDCC7ABBC2E182EEE608F129FB024 /* JYYTool.modulemap */,
+				F73C8AF3C9496BAB219ABF44546F03DD /* JYYTool.xcconfig */,
+				4870969D020975E8E043C20082BE9630 /* JYYTool-dummy.m */,
+				6FB00545FDDED18B2819A06A7FA0F1FC /* JYYTool-Info.plist */,
+				E28558B6479A81CDC4F2BC0E01E97F6E /* JYYTool-prefix.pch */,
+				54E48CF18A7EF73909A6A73B2596025E /* JYYTool-umbrella.h */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JYYTool";
 			sourceTree = "<group>";
 		};
 		A864606A01588BE679CE142BCD9E9452 /* Products */ = {
@@ -183,7 +171,7 @@
 		AAA68AA519EDE4DF2A11FBDC977EADF9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				408DF2031DEF689CFF017DA31FDC0034 /* JYYTool */,
+				D7DB5B02B6E45CA489E81BB1D2AE4CBC /* JYYTool */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -213,6 +201,18 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7DB5B02B6E45CA489E81BB1D2AE4CBC /* JYYTool */ = {
+			isa = PBXGroup;
+			children = (
+				1419A0AFF81BEE42F7BC0C40749FA5F3 /* LYConstants.swift */,
+				55052182995D6467DD84C147F4B842EE /* LYMethod.swift */,
+				0F85E90379572298F2BBC32F631FBA05 /* Pod */,
+				8E4620E51020CBABD446B5E5DDA65423 /* Support Files */,
+			);
+			name = JYYTool;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D9B36E8CC074E05CA3207380D9FD423E /* Targets Support Files */ = {
@@ -297,7 +297,7 @@
 			buildConfigurationList = 9A88C7D478B4C93EA281EF1F966E0983 /* Build configuration list for PBXNativeTarget "JYYTool" */;
 			buildPhases = (
 				A51E53E53BDD5F6E0A389BA9A27BB48A /* Headers */,
-				7C649AFC642F78B8D988E7045E50A4CB /* Sources */,
+				70C8A458D14307330FE928ED38706F4F /* Sources */,
 				47FA08651AE7DF14FEEFE08A6AFECB49 /* Frameworks */,
 				3CFBEA5D52D72032ED7FBA3B341843B2 /* Resources */,
 			);
@@ -371,13 +371,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C649AFC642F78B8D988E7045E50A4CB /* Sources */ = {
+		70C8A458D14307330FE928ED38706F4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A668D590FACA1BF6FA96E16FDC1DE507 /* JYYTool-dummy.m in Sources */,
-				515C167E2484E90900D413FC /* LYMethod.swift in Sources */,
-				25C4883826091121076E40B25B87625E /* LYConstants.swift in Sources */,
+				71F378130B6FC945D9C79036C249389E /* JYYTool-dummy.m in Sources */,
+				405AFA181911F8301CB0DE2AA07D7504 /* LYConstants.swift in Sources */,
+				D8C00CCDCCA63B035204FCE70CE8B9B9 /* LYMethod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +475,7 @@
 		};
 		877B7E32F3E4A2D3C600F7A885544EE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D61047985C23EAFD51589B71AAD2B422 /* JYYTool.xcconfig */;
+			baseConfigurationReference = F73C8AF3C9496BAB219ABF44546F03DD /* JYYTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -557,7 +557,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -663,7 +664,7 @@
 		};
 		D2F6DACD7E2FD2D0998CA9947DD7CEAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D61047985C23EAFD51589B71AAD2B422 /* JYYTool.xcconfig */;
+			baseConfigurationReference = F73C8AF3C9496BAB219ABF44546F03DD /* JYYTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

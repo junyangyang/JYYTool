@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JYYTool'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'JYYTool. define '
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/junyangyang'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zjdmhliuyang' => '571172886@qq.com' }
+  s.author           = { 'jyy' => '571172886@qq.com' }
   s.source           = { :git => 'https://github.com/junyangyang/JYYTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

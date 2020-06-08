@@ -1,5 +1,5 @@
 //
-//  LYConstants.swift
+//  JYYConstants.swift
 //  LYTool_Example
 //
 //  Created by 俊洋洋 on 2020/6/1.
@@ -12,9 +12,10 @@ import UIKit
 public struct JYY{
     static public let userdefaults = UserDefaults.standard
     
+    /// app版本号
     static public let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString")
     ///随机色
-    static public let randomColor = RGB(CGFloat(arc4random()%255),  CGFloat(arc4random()%255),  CGFloat(arc4random()%255))
+    static public let randomColor = JYYTool.RGB(CGFloat(arc4random()%255),  CGFloat(arc4random()%255),  CGFloat(arc4random()%255))
     
     
     /// 默认图片
@@ -37,6 +38,7 @@ public struct JYY{
     
     
     
+    /// 设备版本信息
     static public let deviceVersion = UIDevice.current.systemVersion
     
 
@@ -51,5 +53,6 @@ public struct JYY{
     static public let iPhoneX_XS = (height == 812 ? true : false)
     static public let iPhoneXSM = (height == 896 ? true : false)
 }
+
 
 

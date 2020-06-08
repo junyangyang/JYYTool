@@ -1,7 +1,7 @@
 {
   "name": "JYYTool",
-  "version": "0.0.2",
-  "summary": "JYYTool. define const",
+  "version": "0.0.3",
+  "summary": "JYYTool. define",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/junyangyang",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/junyangyang/JYYTool.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "9.0"
