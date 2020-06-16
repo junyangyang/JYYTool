@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView{
     ///x
-    var x: CGFloat{
+   public var x: CGFloat{
         get{
             return frame.origin.x
         }
@@ -22,7 +22,7 @@ extension UIView{
     }
     
     /// y
-    var y: CGFloat{
+   public var y: CGFloat{
         get{
             return frame.origin.y
         }
@@ -34,7 +34,7 @@ extension UIView{
     }
     
     /// 高度
-    var height: CGFloat {
+   public var height: CGFloat {
         get {
             return frame.size.height
         }
@@ -46,7 +46,7 @@ extension UIView{
     }
     
     /// 宽度
-    var width: CGFloat{
+   public var width: CGFloat{
         get{
             return frame.size.width
         }
@@ -58,7 +58,7 @@ extension UIView{
     }
     
     /// size -> CGSIze(width,height)
-    var size: CGSize{
+   public var size: CGSize{
         get{
             return frame.size
         }
@@ -69,7 +69,7 @@ extension UIView{
         }
     }
     
-    var centerX: CGFloat{
+   public var centerX: CGFloat{
         get{
             return center.x
         }
@@ -80,7 +80,7 @@ extension UIView{
         }
     }
     
-    var centerY: CGFloat{
+   public var centerY: CGFloat{
         get{
             return center.y
         }
@@ -91,7 +91,7 @@ extension UIView{
         }
     }
     
-    var centerP: CGPoint{
+   public var centerP: CGPoint{
         get{
             return center
         }
@@ -100,7 +100,7 @@ extension UIView{
         }
         
     }
-    var origin: CGPoint{
+   public var origin: CGPoint{
         get{
             return CGPoint(x: frame.origin.x, y: frame.origin.y)
         }set{
@@ -140,7 +140,7 @@ extension UIView{
     /// - Parameters:
     ///   - startColors: 开始颜色
     ///   - endColor: 结束颜色
-    func addGradualColorVertical(startColors: UIColor,endColor: UIColor){
+   public func addGradualColorVertical(startColors: UIColor,endColor: UIColor){
         let layer = CAGradientLayer()
         layer.frame = self.bounds
         layer.borderWidth = 0
@@ -153,7 +153,7 @@ extension UIView{
     /// - Parameters:
     ///   - startColors: 开始颜色
     ///   - endColor: 结束颜色
-    func addGradualColorHorizontal(startColors: UIColor,endColor: UIColor){
+   public func addGradualColorHorizontal(startColors: UIColor,endColor: UIColor){
         let layer = CAGradientLayer()
         layer.frame = self.bounds
         layer.borderWidth = 0
@@ -181,7 +181,7 @@ extension String{
     }
 
     // base64解码
-    func fromBase64() -> String? {
+    public func fromBase64() -> String? {
         if let data = Data(base64Encoded: self) {
             return String(data: data, encoding: .utf8)
         }
