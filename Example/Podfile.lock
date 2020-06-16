@@ -1,22 +1,15 @@
 PODS:
-  - JYYTool (0.1.5):
-    - MBProgressHUD (~> 1.2.0)
-  - MBProgressHUD (1.2.0)
+  - JYYTool (0.1.6)
 
 DEPENDENCIES:
   - JYYTool (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MBProgressHUD
 
 EXTERNAL SOURCES:
   JYYTool:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JYYTool: 6119370c27bcec7208f7d4e06dfc4886796c0d06
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  JYYTool: 994b85ed94f2fb71b22a109d873e8c181eb60132
 
 PODFILE CHECKSUM: bf6d8419585b7919028350a5946599d7a47a89a1
 

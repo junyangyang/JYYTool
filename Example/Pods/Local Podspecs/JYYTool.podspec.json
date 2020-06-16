@@ -1,6 +1,6 @@
 {
   "name": "JYYTool",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "some useful method. only my record",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/junyangyang",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/junyangyang/JYYTool.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JYYTool/Classes/**/*",
-  "dependencies": {
-    "MBProgressHUD": [
-      "~> 1.2.0"
-    ]
-  }
+  "source_files": "JYYTool/Classes/**/*"
 }
