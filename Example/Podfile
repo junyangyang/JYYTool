@@ -1,11 +1,12 @@
 #use_frameworks!
-use_modular_headers!
+#use_modular_headers!
 target 'JYYTool_Example' do
   pod 'JYYTool', :path => '../'
-  pod 'MBProgressHUD', '~> 1.2.0'
+  pod 'MBProgressHUD',  '~> 1.2.0' 
   target 'JYYTool_Tests' do
     inherit! :search_paths
-
+    use_modular_headers!
     
   end
+  use_modular_headers!
 end
