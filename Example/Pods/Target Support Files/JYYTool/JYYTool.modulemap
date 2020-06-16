@@ -1,4 +1,4 @@
-framework module JYYTool {
+module JYYTool {
   umbrella header "JYYTool-umbrella.h"
 
   export *
