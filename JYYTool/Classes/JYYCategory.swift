@@ -6,9 +6,7 @@
 //  Copyright © 2020 俊洋洋. All rights reserved.
 //
 
-import UIKit
-import JYYTool
-//MARK: UIView_frame Category
+import 
 extension UIView{
     ///x
     var x: CGFloat{
