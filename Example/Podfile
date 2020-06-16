@@ -1,5 +1,5 @@
-use_frameworks!
-
+#use_frameworks!
+use_modular_headers!
 target 'JYYTool_Example' do
   pod 'JYYTool', :path => '../'
 

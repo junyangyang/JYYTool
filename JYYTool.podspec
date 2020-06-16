@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JYYTool'
   s.version          = '0.0.5'
-  s.summary          = 'add some extension. JYYHud '
+  s.summary          = 'some useful method. only my record '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
