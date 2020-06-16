@@ -1,4 +1,4 @@
-module Pods_JYYTool_Example {
+framework module Pods_JYYTool_Example {
   umbrella header "Pods-JYYTool_Example-umbrella.h"
 
   export *
