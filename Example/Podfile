@@ -5,6 +5,6 @@ target 'JYYTool_Example' do
   use_modular_headers!
   target 'JYYTool_Tests' do
     inherit! :search_paths
-    
+    use_modular_headers!
   end
 end
