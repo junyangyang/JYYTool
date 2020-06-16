@@ -8,9 +8,9 @@
 
 import UIKit
 
-extension UIView{
+public extension UIView{
     ///x
-   public var x: CGFloat{
+    var x: CGFloat{
         get{
             return frame.origin.x
         }
@@ -22,7 +22,7 @@ extension UIView{
     }
     
     /// y
-   public var y: CGFloat{
+    var y: CGFloat{
         get{
             return frame.origin.y
         }
@@ -34,7 +34,7 @@ extension UIView{
     }
     
     /// 高度
-   public var height: CGFloat {
+    var height: CGFloat {
         get {
             return frame.size.height
         }
@@ -46,7 +46,7 @@ extension UIView{
     }
     
     /// 宽度
-   public var width: CGFloat{
+    var width: CGFloat{
         get{
             return frame.size.width
         }
@@ -58,7 +58,7 @@ extension UIView{
     }
     
     /// size -> CGSIze(width,height)
-   public var size: CGSize{
+    var size: CGSize{
         get{
             return frame.size
         }
@@ -69,7 +69,7 @@ extension UIView{
         }
     }
     
-   public var centerX: CGFloat{
+    var centerX: CGFloat{
         get{
             return center.x
         }
@@ -80,7 +80,7 @@ extension UIView{
         }
     }
     
-   public var centerY: CGFloat{
+    var centerY: CGFloat{
         get{
             return center.y
         }
@@ -91,7 +91,7 @@ extension UIView{
         }
     }
     
-   public var centerP: CGPoint{
+    var centerP: CGPoint{
         get{
             return center
         }
@@ -100,7 +100,7 @@ extension UIView{
         }
         
     }
-   public var origin: CGPoint{
+    var origin: CGPoint{
         get{
             return CGPoint(x: frame.origin.x, y: frame.origin.y)
         }set{
@@ -111,8 +111,8 @@ extension UIView{
     }
 }
 //MARK: UIView_VC Category
-extension UIView{
-   public func currentNavViewController() -> UINavigationController? {
+public extension UIView{
+    func currentNavViewController() -> UINavigationController? {
         var n = next
         while n != nil {
             if n is UINavigationController {
@@ -123,7 +123,7 @@ extension UIView{
         return nil
     }
     
-   public func currentVC() -> UIViewController? {
+    func currentVC() -> UIViewController? {
         var n = next
         while n != nil {
             if n is UIViewController {
@@ -134,13 +134,13 @@ extension UIView{
         return nil
     }
 }
-extension UIView{
+public extension UIView{
     
     /// 垂直方向下的渐变
     /// - Parameters:
     ///   - startColors: 开始颜色
     ///   - endColor: 结束颜色
-   public func addGradualColorVertical(startColors: UIColor,endColor: UIColor){
+    func addGradualColorVertical(startColors: UIColor,endColor: UIColor){
         let layer = CAGradientLayer()
         layer.frame = self.bounds
         layer.borderWidth = 0
@@ -153,7 +153,7 @@ extension UIView{
     /// - Parameters:
     ///   - startColors: 开始颜色
     ///   - endColor: 结束颜色
-   public func addGradualColorHorizontal(startColors: UIColor,endColor: UIColor){
+    func addGradualColorHorizontal(startColors: UIColor,endColor: UIColor){
         let layer = CAGradientLayer()
         layer.frame = self.bounds
         layer.borderWidth = 0
@@ -167,13 +167,13 @@ extension UIView{
 
 
 //MARK: String Category
-extension String{
-    public func getHeightByFont(font: UIFont,width: CGFloat = JYY.width) -> CGFloat{
+public extension String{
+     func getHeightByFont(font: UIFont,width: CGFloat = JYY.width) -> CGFloat{
         let textSize = self.boundingRect(with: CGSize(width: width, height: CGFloat(MAXFLOAT)), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font:font], context: nil)
         return textSize.height
     }
         // base64编码
-    public func toBase64() -> String? {
+     func toBase64() -> String? {
         if let data = self.data(using: .utf8) {
             return data.base64EncodedString()
         }
@@ -181,7 +181,7 @@ extension String{
     }
 
     // base64解码
-    public func fromBase64() -> String? {
+     func fromBase64() -> String? {
         if let data = Data(base64Encoded: self) {
             return String(data: data, encoding: .utf8)
         }
