@@ -1,6 +1,6 @@
 {
   "name": "JYYTool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "JYYTool. define",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/junyangyang",
@@ -9,14 +9,19 @@
     "file": "LICENSE"
   },
   "authors": {
-    "zjdmhliuyang": "571172886@qq.com"
+    "jyy": "571172886@qq.com"
   },
   "source": {
     "git": "https://github.com/junyangyang/JYYTool.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JYYTool/Classes/**/*"
+  "source_files": "JYYTool/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+      "~> 1.2.0"
+    ]
+  }
 }

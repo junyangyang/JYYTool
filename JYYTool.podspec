@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JYYTool'
-  s.version          = '0.0.4'
-  s.summary          = 'JYYTool. define '
+  s.version          = '0.0.5'
+  s.summary          = 'add some extension. JYYHud '
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'MBProgressHUD', '~> 1.2.0'
 end
