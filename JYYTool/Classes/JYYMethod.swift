@@ -51,6 +51,34 @@ public class JYYTool{
             return image ?? nil
         }
     
+    
+    /// 获取随机数 ，lower最小数  upper最大数
+    /// - Parameters:
+    ///   - lower: 最小数
+    ///   - upper: 最大数
+    public static func randomIntNumber(lower:Int=0,upper: Int = Int(UInt32.max)) -> Int{
+          return lower + Int(arc4random_uniform(UInt32(upper-lower)))
+    }
+    
+    /// 随机数
+    /// - Parameter range: Range<Int> 1...4
+    public static func randomRangeNumber(range: Range<Int>) -> Int{
+        return randomIntNumber(lower: range.lowerBound, upper: range.upperBound)
+    }
+      
+      
+    
+    /// 动态计算Text的d高度
+    /// - Parameters:
+    ///   - text: 文字信息
+    ///   - font: 字体大小
+    ///   - width: 文字固定宽度
+    public static func getHeightByText(_ text: String,font: UIFont,width: CGFloat = JYY.width) -> CGFloat{
+        let str = text
+        let textSize = str.boundingRect(with: CGSize(width: width, height: CGFloat(MAXFLOAT)), options: .usesLineFragmentOrigin, attributes: [NSAttributedString.Key.font:font], context: nil)
+        return textSize.height
+    }
+    
     /// 字体
     /// - Parameter font: font
    static public func FONT(font: CGFloat) -> UIFont {
